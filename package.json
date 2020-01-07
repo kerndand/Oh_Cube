@@ -1,0 +1,19 @@
+{
+  "name": "oh_cube_prototyp",
+  "version": "1.0.0",
+  "description": "Oh Cube",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^1.3.1",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "DK",
+  "license": "ISC"
+}
