@@ -6,10 +6,10 @@ SOCKET.on("data", (data) => {
   gyro = data;
 
 
-     document.getElementsByClassName('cube')[0].style.transform = 'rotateX(' + gyro.x + 'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
-    //  document.getElementsByClassName('cube')[1].style.transform = 'rotateX(' + gyro.x + 'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
-    //  document.getElementsByClassName('cube')[2].style.transform = 'rotateX(' + gyro.x + 'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
-    //  document.getElementsByClassName('cube')[3].style.transform = 'rotateX(' + gyro.x + 'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
+    document.getElementsByClassName('cube')[0].style.transform = 'rotateX(' + gyro.x + 'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
+    document.getElementsByClassName('cube')[1].style.transform = 'rotateX(' + gyro.x + 'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
+    document.getElementsByClassName('cube')[2].style.transform = 'rotateX(' + gyro.x + 'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
+    document.getElementsByClassName('cube')[3].style.transform = 'rotateX(' + gyro.x + 'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
   });
 
 
