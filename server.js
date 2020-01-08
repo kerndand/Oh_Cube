@@ -28,7 +28,7 @@ board.on("ready", function() {
   
   var gyro = new five.Gyro({
     controller: "MPU6050",
-    sensitivity: 100  
+    sensitivity: 131  
   });
 
   io.sockets.on("connection", (socket) => {
@@ -36,12 +36,11 @@ board.on("ready", function() {
     
     gyro.on("change", function() {
       let data = {
-        x: gyro.x,
-        y: gyro.y,
-        z: gyro.z
+        x: gyro.roll.angle*3,
+        y: gyro.pitch.angle*3,
+        z: gyro.yaw.angle*3
       };
-      console.log(data);
-      socket.emit("data", gyro.rate);
+      socket.emit("data", data);
     });
 
     // Handling disconnect
