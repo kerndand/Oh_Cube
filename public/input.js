@@ -6,7 +6,7 @@ SOCKET.on("data", (data) => {
   gyro = data;
 
 
- document.getElementsByClassName('cube')[0].style.transform = 'rotateY(' + gyro.y + 'deg) rotateX(' + gyro.x +'deg)';
+ document.getElementsByClassName('cube')[0].style.transform = 'rotateX(' + gyro.x +'deg) rotateY(' + gyro.y + 'deg) rotateZ(' + gyro.z + 'deg)';
 });
 
 // window.addEventListener("deviceorientation", (e) => {
