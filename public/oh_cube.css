@@ -14,28 +14,28 @@ body {
 
 
 #holo1{
-    top: 7%;
+    top: 8%;
     left: 45%
 }
 
 #holo2{
     transform: rotate(180deg);
-    left: 45%;
-    bottom: 7%;
+    left: 43%;
+    bottom: 8%;
     
 } 
 
 #holo3{
   transform: rotate(270deg);
-  top: 35%;
-  left: 25%;
+  top: 34%;
+  left: 27%;
   
 } 
 
 #holo4{
     transform: rotate(90deg);
-    top: 35%;
-   left: 65%;
+    top: 37%;
+   left: 61%;
 
 }  
 .cube {
@@ -47,41 +47,41 @@ body {
 
 .cube > div {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(26, 33, 94);
     text-transform: uppercase;
   }
 
   .cube div:nth-child(1) {
-    transform:translateZ(100px);
-    background:#b1b1b1;
+    transform:translateZ(87.5px);
+    background:rgb(0, 255, 255);
   }
   
   .cube div:nth-child(2) {
-    transform: rotateX(180deg) translateZ(100px);
-    background:#a5a5a5;
+    transform: rotateX(180deg) translateZ(87.5px);
+    background:rgb(0, 225, 225);
   }
   
   .cube div:nth-child(3) {
-    transform: rotateY(-90deg) translateZ(100px);
-    background:#a3a3a3;
+    transform: rotateY(-90deg) translateZ(87.5px);
+    background:rgb(0, 215, 215);
   }
   
   .cube div:nth-child(4) {
-    transform:rotateY(90deg) translateZ(100px);
-    background:#a1a1a1;
+    transform:rotateY(90deg) translateZ(87.5px);
+    background:rgb(0, 230, 230);
   }
   
   .cube div:nth-child(5) {
-    transform: rotateX(90deg) translateZ(100px);
-    background:#a0a0a0;
+    transform: rotateX(90deg) translateZ(87.5px);
+    background:rgb(0, 220, 220);
   }
   
   .cube div:nth-child(6) {
-    transform:rotateX(-90deg) translateZ(100px);
-    background:#bbbbbb;
+    transform:rotateX(-90deg) translateZ(87.5px);
+    background:rgb(0, 235, 235);
   }
